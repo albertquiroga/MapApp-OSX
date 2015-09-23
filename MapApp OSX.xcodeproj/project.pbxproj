@@ -55,7 +55,6 @@
 		4FD372D31BB326F7004D2012 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 		4FD372D41BB326F7004D2012 /* DataDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDownloader.swift; sourceTree = "<group>"; };
 		4FD372D61BB326F7004D2012 /* Motorbike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorbike.swift; sourceTree = "<group>"; };
-		4FD372D71BB326F7004D2012 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		4FD372D81BB326F7004D2012 /* TimeBit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeBit.swift; sourceTree = "<group>"; };
 		4FD372D91BB326F7004D2012 /* TrackerMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerMapView.swift; sourceTree = "<group>"; };
 		4FD372DA1BB326F7004D2012 /* TrackerMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerMarker.swift; sourceTree = "<group>"; };
@@ -113,7 +112,6 @@
 				4FD372D31BB326F7004D2012 /* CSV.swift */,
 				4FD372D41BB326F7004D2012 /* DataDownloader.swift */,
 				4FD372D61BB326F7004D2012 /* Motorbike.swift */,
-				4FD372D71BB326F7004D2012 /* MyPlayground.playground */,
 				4FD372D81BB326F7004D2012 /* TimeBit.swift */,
 				4FD372D91BB326F7004D2012 /* TrackerMapView.swift */,
 				4FD372DA1BB326F7004D2012 /* TrackerMarker.swift */,
