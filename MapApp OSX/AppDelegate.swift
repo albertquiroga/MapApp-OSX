@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  MapApp OSX
+//  MapApp
 //
-//  Created by Albert Quiroga Bertolin on 23/9/15.
-//  Copyright © 2015 Albert Quiroga Bertolin. All rights reserved.
+//  Created by Albert Quiroga Bertolin on 7/9/15.
+//  Copyright (c) 2015 Albert Quiroga Bertolin. All rights reserved.
 //
 
 import Cocoa

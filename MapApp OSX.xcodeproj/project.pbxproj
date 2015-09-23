@@ -13,6 +13,13 @@
 		4F6F26911BB324B900B9B036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F268F1BB324B900B9B036 /* Main.storyboard */; };
 		4F6F269C1BB324B900B9B036 /* MapApp_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F269B1BB324B900B9B036 /* MapApp_OSXTests.swift */; };
 		4F6F26A71BB324B900B9B036 /* MapApp_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F26A61BB324B900B9B036 /* MapApp_OSXUITests.swift */; };
+		4FD372DC1BB326F7004D2012 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD372D31BB326F7004D2012 /* CSV.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD372DD1BB326F7004D2012 /* DataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD372D41BB326F7004D2012 /* DataDownloader.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD372DF1BB326F7004D2012 /* Motorbike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD372D61BB326F7004D2012 /* Motorbike.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD372E01BB326F7004D2012 /* TimeBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD372D81BB326F7004D2012 /* TimeBit.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD372E11BB326F7004D2012 /* TrackerMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD372D91BB326F7004D2012 /* TrackerMapView.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD372E21BB326F7004D2012 /* TrackerMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD372DA1BB326F7004D2012 /* TrackerMarker.swift */; settings = {ASSET_TAGS = (); }; };
+		4FD372E31BB326F7004D2012 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD372DB1BB326F7004D2012 /* WindowController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,14 @@
 		4F6F26A21BB324B900B9B036 /* MapApp OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapApp OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6F26A61BB324B900B9B036 /* MapApp_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapApp_OSXUITests.swift; sourceTree = "<group>"; };
 		4F6F26A81BB324B900B9B036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD372D31BB326F7004D2012 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		4FD372D41BB326F7004D2012 /* DataDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDownloader.swift; sourceTree = "<group>"; };
+		4FD372D61BB326F7004D2012 /* Motorbike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorbike.swift; sourceTree = "<group>"; };
+		4FD372D71BB326F7004D2012 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		4FD372D81BB326F7004D2012 /* TimeBit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeBit.swift; sourceTree = "<group>"; };
+		4FD372D91BB326F7004D2012 /* TrackerMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerMapView.swift; sourceTree = "<group>"; };
+		4FD372DA1BB326F7004D2012 /* TrackerMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerMarker.swift; sourceTree = "<group>"; };
+		4FD372DB1BB326F7004D2012 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +110,14 @@
 		4F6F26881BB324B900B9B036 /* MapApp OSX */ = {
 			isa = PBXGroup;
 			children = (
+				4FD372D31BB326F7004D2012 /* CSV.swift */,
+				4FD372D41BB326F7004D2012 /* DataDownloader.swift */,
+				4FD372D61BB326F7004D2012 /* Motorbike.swift */,
+				4FD372D71BB326F7004D2012 /* MyPlayground.playground */,
+				4FD372D81BB326F7004D2012 /* TimeBit.swift */,
+				4FD372D91BB326F7004D2012 /* TrackerMapView.swift */,
+				4FD372DA1BB326F7004D2012 /* TrackerMarker.swift */,
+				4FD372DB1BB326F7004D2012 /* WindowController.swift */,
 				4F6F26891BB324B900B9B036 /* AppDelegate.swift */,
 				4F6F268B1BB324B900B9B036 /* ViewController.swift */,
 				4F6F268D1BB324B900B9B036 /* Assets.xcassets */,
@@ -251,8 +274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD372DF1BB326F7004D2012 /* Motorbike.swift in Sources */,
+				4FD372E31BB326F7004D2012 /* WindowController.swift in Sources */,
+				4FD372DD1BB326F7004D2012 /* DataDownloader.swift in Sources */,
+				4FD372E01BB326F7004D2012 /* TimeBit.swift in Sources */,
+				4FD372E11BB326F7004D2012 /* TrackerMapView.swift in Sources */,
 				4F6F268C1BB324B900B9B036 /* ViewController.swift in Sources */,
 				4F6F268A1BB324B900B9B036 /* AppDelegate.swift in Sources */,
+				4FD372DC1BB326F7004D2012 /* CSV.swift in Sources */,
+				4FD372E21BB326F7004D2012 /* TrackerMarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +504,7 @@
 				4F6F26AD1BB324B900B9B036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F6F26AE1BB324B900B9B036 /* Build configuration list for PBXNativeTarget "MapApp OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +513,7 @@
 				4F6F26B01BB324B900B9B036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F6F26B11BB324B900B9B036 /* Build configuration list for PBXNativeTarget "MapApp OSXUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +522,7 @@
 				4F6F26B31BB324B900B9B036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
